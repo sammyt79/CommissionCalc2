@@ -40,4 +40,4 @@ I added the do-while statement to the program for input testing.
 It was not present at submission.
 
 To run the program, download the jar file (CommissionCalc2/dist/CommissionCalc2.jar view raw) 
-Then open the Command Prompt, change directory to downloads, paste java -jar CommissionCalc2.jar
+Then open the Command Prompt, change directory to downloads, paste "java -jar CommissionCalc2.jar"
