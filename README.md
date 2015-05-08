@@ -36,4 +36,4 @@ The application should have at least one class, in addition to the applicationâ€
 The source code must demonstrate the use of conditional and looping structures.
 There should be proper documentation in the source code.
 
-CommissionCalc2\src to view the code
+CommissionCalc2/dist/CommissionCalc2.jar to run the program
