@@ -13,6 +13,7 @@ public class CommissionCalc2
 {
     public static void main(String[] args)
     {
+        int reply;
         // To hold string imputs
         String inputString; 
         
@@ -33,7 +34,9 @@ public class CommissionCalc2
             + formatter.format(user.getSalesTarget()) 
             + "\ncommisssion will be multiplied by a set acceleration factor");
         
-        //Get the user's firs and last names
+        do
+        {
+            //Get the user's firs and last names
         user.setFirstName
             (JOptionPane.showInputDialog("Please enter your first name."));
         user.setLastName
@@ -153,5 +156,9 @@ public class CommissionCalc2
                         + " of sales target. Commission is added to pay.");
             }
         }
+        
+        reply = JOptionPane.showConfirmDialog(null, "Would you like to run the program again?", "", JOptionPane.YES_NO_OPTION);
+        }
+        while (reply == JOptionPane.YES_OPTION);
     }  
 }
