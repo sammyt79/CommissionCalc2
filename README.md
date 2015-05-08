@@ -36,4 +36,5 @@ The application should have at least one class, in addition to the applicationâ€
 The source code must demonstrate the use of conditional and looping structures.
 There should be proper documentation in the source code.
 
-CommissionCalc2/dist/CommissionCalc2.jar to run the program
+To run the program, download the jar file (CommissionCalc2/dist/CommissionCalc2.jar view raw) 
+Then open the Command Prompt, change directory to downloads, paste java -jar CommissionCalc2.jar
